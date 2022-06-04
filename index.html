@@ -168,7 +168,7 @@
     <script src="https://unpkg.com/typeit@8.5.4/dist/index.umd.js"></script>
     <script type="module">
         let username = document.getElementById("user-name"); let avatar = document.getElementById("avatar"); let bio = document.getElementById("bio"); let location = document.getElementById("location"); let twitter = document.getElementById("twitter"); import
-        { Octokit, App } from "https://cdn.skypack.dev/octokit"; const octokit = new Octokit({ auth: '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' }); const user = await octokit.request('GET /users/{username}',{ username: 'repirisyan98' }); console.log(user);
+        { Octokit, App } from "https://cdn.skypack.dev/octokit"; const octokit = new Octokit({ auth: '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' }); const user = await octokit.request('GET /users/{username}',{ username: 'repirisyan98' }); console.log(user);
         for (const property in user) { username.innerHTML = user[property].name;bio.innerHTML = user[property].bio; avatar.setAttribute('src',user[property].avatar_url); location.innerHTML = user[property].location; twitter.setAttribute("href",`https://twitter.com/${user[property].twitter_username}`);username.setAttribute('href',`${user[property].html_url}`)
         }
     </script>
