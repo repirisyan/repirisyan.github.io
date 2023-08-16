@@ -9,7 +9,7 @@
     <title>Repi Maulana Risyan</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link href="./dist/css/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
     <script>
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
@@ -53,12 +53,12 @@
             <div class="flex">
                 <div>
                     <a href="https://x.com/rrsyanz" target="_blank" class="inline-flex items-center text-white font-medium rounded-lg text-sm px-4 py-2 text-center mr-2 mb-2">
-                        <img src="./dist/image/x.svg" width="26" alt="X Icon" title="X" class="dark:invert">
+                        <img src="./assets/image/x.svg" width="26" alt="X Icon" title="X" class="dark:invert">
                     </a>
                 </div>
                 <div>
                     <a href="mailto:repirisyan@icloud.com" class="inline-flex items-center  font-medium rounded-lg text-sm px-4 py-2 text-center mr-2 mb-2">
-                        <img src="./dist/image/gmail.svg" width="21" alt="Email Icon" title="E-mail">
+                        <img src="./assets/image/gmail.svg" width="21" alt="Email Icon" title="E-mail">
                     </a>
                 </div>
             </div>
@@ -88,8 +88,18 @@
             </h2>
             <div class="flex items-center flex-wrap">
                 <div class="mt-2 flex-auto">
+                    <a href="https://mysql.com" target="_blank" aria-label="MySQL Website">
+                        <img src="./assets/image/mysql-logo-svgrepo-com.svg" width="60" alt="MySQL Logo" title="MySQL">
+                    </a>
+                </div>
+                <div class="mt-2 flex-auto">
                     <a href="https://tailwindcss.com" target="_blank" aria-label="Tailwind Website">
-                        <img src="./dist/image/tailwind-css.svg" width="40" alt="Tailwind Logo" title="Tailwind">
+                        <img src="./assets/image/tailwind-css.svg" width="40" alt="Tailwind Logo" title="Tailwind">
+                    </a>
+                </div>
+                <div class="mt-2 flex-auto">
+                    <a href="https://getbootstrap.com" target="_blank" aria-label="Bootstrap Website">
+                        <img src="./assets/image/bootstrap.svg" width="40" alt="Bootstrap Logo" title="Bootstrap">
                     </a>
                 </div>
                 <div class="mt-2 flex-auto">
@@ -98,25 +108,20 @@
                     </a>
                 </div>
                 <div class="mt-2 flex-auto">
-                    <a href="https://getbootstrap.com" target="_blank" aria-label="Bootstrap Website">
-                        <img src="./dist/image/bootstrap.svg" width="40" alt="Bootstrap Logo" title="Bootstrap">
-                    </a>
-                </div>
-                <div class="mt-2 flex-auto">
-                    <a href="https://alpinejs.dev" target="_blank" aria-label="AlpineJS Website">
-                        <img src="./dist/image/alpine_long.svg" width="40" alt="Alpine.js Logo" title="Alpine.js">
-                    </a>
-                </div>
-                <div class="mt-2 flex-auto">
                     <a href="https://laravel.com" target="_blank" aria-label="Laravel Website">
                         <div class="inline-flex">
-                            <img src="./dist/image/laravel.svg" width="30" alt="Laravel Logo" title="Laravel">
+                            <img src="./assets/image/laravel.svg" width="30" alt="Laravel Logo" title="Laravel">
                         </div>
                     </a>
                 </div>
                 <div class="mt-2 flex-auto">
+                    <a href="https://alpinejs.dev" target="_blank" aria-label="AlpineJS Website">
+                        <img src="./assets/image/alpine_long.svg" width="40" alt="Alpine.js Logo" title="Alpine.js">
+                    </a>
+                </div>
+                <div class="mt-2 flex-auto">
                     <a href="https://laravel-livewire.com" target="_blank" aria-label="Laravel Livewire Website">
-                        <img src="./dist/image/livewire.svg" width="120" alt="Livewire Logo" title="Livewire">
+                        <img src="./assets/image/livewire.svg" width="120" alt="Livewire Logo" title="Livewire">
                     </a>
                 </div>
             </div>
@@ -135,6 +140,7 @@
                                 <p class="py-1 px-2 text-xs bg-gray-200 dark:bg-white text-gray-700 dark:text-black font-medium rounded-full mr-1 mb-1 mt-0">Laravel</p>
                                 <p class="py-1 px-2 text-xs bg-gray-200 dark:bg-white text-gray-700 dark:text-black font-medium rounded-full mr-1 mb-1 mt-0">Bootstrap</p>
                                 <p class="py-1 px-2 text-xs bg-gray-200 dark:bg-white text-gray-700 dark:text-black font-medium rounded-full mr-1 mb-1 mt-0">Livewire</p>
+                                <p class="py-1 px-2 text-xs bg-gray-200 dark:bg-white text-gray-700 dark:text-black font-medium rounded-full mr-1 mb-1 mt-0">MySQL</p>
                             </div>
                         </div>
                         <div>
@@ -172,7 +178,7 @@
             &copy; 2022 Repi Maulana Risyan. All rights reserved
         </footer>
     </article>
-    <script src="./dist/js/darkmode.js"></script>
+    <script src="./assets/js/darkmode.js"></script>
 </body>
 
 </html>
